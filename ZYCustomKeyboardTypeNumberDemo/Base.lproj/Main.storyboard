@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -21,34 +21,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="会计法萨洛克撒谎卡萨哈市付款了会计法萨洛克撒谎卡萨哈市付款了会计法萨洛克撒谎卡萨哈市付款了会计法萨洛克撒谎卡萨哈市付款了会计法萨洛克撒谎卡萨哈市付款了会" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNL-os-LWp" userLabel="left">
-                                <rect key="frame" x="10" y="289" width="410" height="21"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会计法萨" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahf-47-kVe" userLabel="right">
-                                <rect key="frame" x="440" y="289" width="150" height="21"/>
-                                <color key="backgroundColor" red="1" green="0.25264576989999998" blue="0.2710224598" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="5TT-xa-fc9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="g3O-qy-Z6l" secondAttribute="trailing" constant="20" id="1jU-BG-rrM"/>
-                            <constraint firstItem="kNL-os-LWp" firstAttribute="top" secondItem="g3O-qy-Z6l" secondAttribute="bottom" constant="41" id="FWw-dj-sW2"/>
                             <constraint firstAttribute="centerX" secondItem="g3O-qy-Z6l" secondAttribute="centerX" id="QNK-RS-32m"/>
                             <constraint firstAttribute="centerY" secondItem="g3O-qy-Z6l" secondAttribute="centerY" constant="67" id="VD2-Vt-QMd"/>
-                            <constraint firstItem="kNL-os-LWp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="aS3-rM-z7s"/>
-                            <constraint firstItem="ahf-47-kVe" firstAttribute="top" secondItem="g3O-qy-Z6l" secondAttribute="bottom" constant="41" id="b44-Ib-eZ5"/>
-                            <constraint firstItem="ahf-47-kVe" firstAttribute="leading" secondItem="kNL-os-LWp" secondAttribute="trailing" constant="20" id="dYk-Ca-1Ja"/>
-                            <constraint firstAttribute="trailing" secondItem="ahf-47-kVe" secondAttribute="trailing" constant="10" id="gRw-py-tmT"/>
                             <constraint firstItem="g3O-qy-Z6l" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="pIa-H8-jdi"/>
                         </constraints>
                     </view>
